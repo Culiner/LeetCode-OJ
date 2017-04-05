@@ -12,7 +12,7 @@ class Solution(object):
             ci = ord(c) - ord('a')
             cnt[ci] -= 1
             if used[ci]:    continue
-            for j in xrange(len(res)-1, -1, -1): # Checking backward for some dulplicate leters
+            for j in range(len(res)-1, -1, -1): # Checking backward for some dulplicate leters
                 cj = ord(res[j]) - ord('a')
                 if cj > ci and cnt[cj] > 0:
                     used[cj] = False
