@@ -34,4 +34,4 @@ class Solution(object):
 
         return result
 
-print Solution().maximalRectangle(["1","0","1","1"]);
+print(Solution().maximalRectangle(["1","0","1","1"]))

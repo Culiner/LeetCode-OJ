@@ -19,4 +19,4 @@ class Solution(object):
             stack.append(i)
         return result
 
-print Solution().largestRectangleArea([1,1])
+print(Solution().largestRectangleArea([1,1]))

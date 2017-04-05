@@ -23,4 +23,4 @@ class Solution(object):
             res += c
         return res
 
-print Solution().removeDuplicateLetters("cbacdcbc")
+print(Solution().removeDuplicateLetters("cbacdcbc"))

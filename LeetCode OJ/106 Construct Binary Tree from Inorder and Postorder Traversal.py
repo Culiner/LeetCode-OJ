@@ -27,4 +27,4 @@ class Solution(object):
         return self.buildTreeUtil(inorder,postorder,inOrderMap,0,len(postorder) - 1,0,len(inorder) - 1)
 
 tmp = Solution().buildTree([4,2,5,1,3,6],[4,5,2,6,3,1])
-print tmp
+print(tmp)
