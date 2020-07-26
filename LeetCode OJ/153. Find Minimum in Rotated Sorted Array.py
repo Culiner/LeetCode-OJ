@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from typing import List
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if len(nums) == 1 or nums[-1] > nums[0]:

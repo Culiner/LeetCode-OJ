@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from typing import List
 
 # Definition for a binary tree node.
 class TreeNode:

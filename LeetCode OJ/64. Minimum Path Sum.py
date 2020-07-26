@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from typing import List
 
 # class Solution:
 #     min_total = -1

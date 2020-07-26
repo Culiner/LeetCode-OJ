@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from typing import List
 
 class Solution:
     def generate_list(self, nums_map, now_list, result, last_num):
